@@ -1,0 +1,41 @@
+{
+  "name": "viber-1c",
+  "description": "Viber буфер. Промежуточное хранение Вайбер сообщений.",
+  "image": "heroku/php",
+  "repository": "https://github.com/best-tech/viber-1c",
+  "website": "http://4098.ru/viber-1c",
+  "logo": "https://github.com/best-tech/viber-1c/blob/master/web/images/logo.jpg?raw=true",
+  "keywords": ["viber", "1c", "1c-enterprise"],
+   "env": {
+    "DEBUG": {
+      "description": "Флаг вывода отладочных сообщений",
+      "value": "0"
+    },
+    "LOGIN": {
+      "description": "Имя пользователя",
+      "value": "test"
+    },
+    "PASS": {
+      "description": "Пароль пользователя",
+      "value": "test"
+    },
+    "MAX_FILE_SIZE": {
+      "description": "Максимальный размер файла, байт",
+      "value": "0"
+    },
+    "COUNT_USER_QUERY": {
+      "description": "Максимальное количество обрабатываемых сообщений от одного ПА",
+      "value": "0"
+    },
+    "COUNT_USER_FILES": {
+      "description": "Максимальное количество сохраняемых файлов",
+      "value": "0"
+    }
+  },
+  "addons": [
+    {
+      "plan" : "mongolab:sandbox"
+    }
+  ]
+  
+}
