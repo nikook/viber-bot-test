@@ -1,2 +1,0 @@
-# viber-bot-test
-viber
