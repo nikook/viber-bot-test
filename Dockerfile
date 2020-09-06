@@ -1,5 +1,5 @@
 # Inherit from Heroku's stack
-FROM heroku/cedar:14
+FROM heroku/heroku:16
 
 # Internally, we arbitrarily use port 3000
 ENV PORT 8080
